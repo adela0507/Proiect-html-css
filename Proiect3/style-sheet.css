@@ -1,0 +1,138 @@
+body{
+	margin:0 auto;
+	width:960px;
+	background-color:lightbrown;
+}
+h1{
+color:darkpink;
+text-align:center;
+}
+a{
+	color:red;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:visited{
+	color:brown;
+	
+}
+a:hover{
+	color:black;
+}
+p{
+	font-family:Roboto;
+	text-align:justify;
+	
+}
+blockquote
+{
+	font-style:italic;
+}
+ul, ol{
+	list-style-image:url("tiny1.jpg");
+}
+h2, h3
+{
+	font-family:Popins;
+	color:Brown;
+	text-align:center;
+}
+nav ul{
+	list-style-type:none;
+	padding:0;
+}
+nav li
+{
+	display:inline;
+	float:left;
+}
+nav a:visited, nav a:link{
+	background-color:brown;
+	color:white;
+	display:block;
+	width:240px;
+	text-align:center;
+	padding:10px 0;
+}
+nav a:hover{
+	
+background-color:black;
+}
+aside{
+	width:280px;
+	float:right;
+	background-color:tan;
+	text-align:center;
+	font-weight:bold;
+	padding:20px;
+	margin-left:20px;
+		margin-bottom:20px;
+	
+}
+.photo-left{
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+	
+}
+.photo-right{
+	float:right;
+	margin-left:20px;
+	margin-bottom:20px;
+	
+}
+header{
+	background-image:url("beans.jpg");
+	height:100px;
+	margin-bottom:70px;
+}
+header h1{
+	color:rgba(256,256,256,.8);
+	margin-left:30px;
+	margin-top:30px;
+	font-size:50px;
+}
+footer{
+	margin:40px 0;
+	
+}
+footer nav a{
+	color:grey;
+	text-decoration:none;
+	display:block;
+	width:160px;
+	text-align:center;
+	background-color:white;
+}
+
+footer nav a:hover{
+	color:black;
+}
+
+table, td, th{
+	border:1px solid brown;
+	border-spacing:5px;
+	
+}
+td{
+	
+	text-align:left;
+	padding:5px;
+}
+th{
+	text-align:center;
+	color:Brown;
+	font-family:Roboto;
+		padding:5px;
+
+}
+table{
+	border-collapse:collapse;
+}
+video{
+	margin-bottom:20px;
+	margin-left:160px;
+	filter:grayscale(100%);
+	-wenkit-filter:grayscale(100%);
+	
+}

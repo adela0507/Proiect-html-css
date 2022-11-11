@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Coffe form</title>
+<style>
+
+
+</style>
+
+<link href="style-sheet.css" rel="stylesheet" type="text/css"/>
+
+<body>
+<header>
+<h1>Coffee form</h1>
+<nav>
+<ul>
+<li> <a href="Making-coffee.html">Making coffee</a></li>
+<li> <a href="Coffee-list.html" target="_blank">Pagina principala</a></li>
+<li> <a href="All-about-coffee.html" target="_blank">Coffee List</a></li>
+<li> <a href="Coffee-shop.html" target="_blank">Coffee Place</a></li>
+</ul>
+</nav>
+</header>
+<br/>
+Coffee form
+<aside>
+<figure>
+<img src="tiny.jpg" alt="cafelutza" width="200px"/>
+</figure>
+</aside>
+<form>
+<form action="forms-submit.php" method="get">
+<fieldset>
+<legend>Informatii personale</legend>
+<label for="name">Your name:</label>
+<input type="text" name="name" autofocus required id="name" size="40"/>
+</br>
+
+<label for="email">Email Adress</label>
+<input type="email" name="email" required id="email" placeholder="enter a valid email"/>
+</br>
+</fieldset>
+<fieldset>
+<legend>Your coffee preferences</legend>
+<label for="mesaj">Tell us about coffee preparation methods.</label>
+</br>
+
+<textarea name="Tell us about coffee preparation methods." id="mesaj" cols="40" rows="6">mesaj</textarea>
+</br>
+
+<label for="radio">Do you grind your own coffee?</label>
+</br>
+
+<input type="radio" name="radio" value="yes "id="radio">
+yes
+</br>
+
+<input type="radio" name="radio" value="no" id="radio">
+no
+</br>
+
+<label for="checked">How do you drink your coffee?</label>
+
+</br>
+
+<input type="checkbox" name="checkbox" value="sugar" id="checked">
+with sugar
+</br>
+
+<input type="checkbox" name="checkbox" value="cream" id="checked">
+with cream
+</br>
+
+<label for="option">What is your favorite coffee drink?</label>
+
+
+<select name="please select a drink" id="option">
+<option value="o1">drip coffee</option>
+<option value="o2">french coffee</option>
+<option value="o3">espresso</option>
+<option value="o4">latte</option>
+<option value="o5">flavored </option>
+</select>
+</fieldset>
+</br>
+
+</form>
+</br>
+
+<footer>
+<nav>
+<ul>
+<li> <a href="All-about-coffee.html">Pagina principala</a></li>
+<li> <a href="Making-coffee.html">Making coffee</a></li>
+<li> <a href="Coffee-list.html" target="_blank">Coffee List</a></li>
+<li> <a href="Coffee-shop.html" target="_blank">Coffee Place</a></li>
+
+</ul>
+</nav>
+</footer>
+</body>
+</html>
